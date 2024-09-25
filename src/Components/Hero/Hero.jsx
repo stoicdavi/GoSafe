@@ -21,7 +21,7 @@ const Hero = ({heroData, setHeroCount, heroCount, setPlayStatus, playStatus}) =>
             </ul>
             <div className='hero-play'>
                 <img onClick={()=>setPlayStatus(!playStatus)} src='{playStatus?pause_icon:play_icon}' alt='' />
-                <p>Simple Demo Steps</p>
+                <p>We Ride To You, Just To Keep You Going</p>
 
             </div>
         </div>
